@@ -1,0 +1,72 @@
+.container-grandpa{
+    display: flex;
+    background-color: aquamarine;
+    height: 700px;
+    width: 700px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-father-a{
+    display: flex;
+    background-color: aquamarine;
+    height: 700px;
+    width: 230px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    }
+
+.container-son1{
+    display: flex;
+    background-color:deeppink;
+    width: 60%;
+    height: 30%;
+}    
+
+.container-son2{
+    display: flex;
+    background-color: blue;
+    width: 60%;
+    height: 30%;
+}
+.container-father-b{
+    display: flex;
+    background-color: aquamarine;
+    width: 230px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-son3{
+    display: flex;
+    background-color: red;
+    width: 60%;
+    height: 30%;
+}
+
+.container-father-c{
+    display: flex;
+    background-color:aquamarine;
+    width: 230px;
+    height: 700px;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.container-son4{
+    display: flex;
+    background-color: gold;
+    width: 60%;
+    height: 30%;
+}
+
+.container-son5{
+    display: flex;
+    background-color: lightcoral;
+    width: 60%;
+    height: 30%;
+}
